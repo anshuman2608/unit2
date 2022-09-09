@@ -1,0 +1,114 @@
+<html >
+<head>
+   <style>
+    #keyboard {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(5, 50px);
+        gap: 20px;
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+        padding: 20px;
+        
+        background-color:#262c2c;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 20px;
+    }
+    body {
+        background-color:#02bdd5;
+    }
+    
+    #keyboard>div {
+        border: 1px solid rgb(1, 2, 20);
+        border-radius: 10px;
+        font-size: 16px;
+        color:#02bdd5 ;
+       display: grid; 
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    }
+    #enter {
+        grid-column: 11/span 2;
+    }
+    #shift {
+        grid-column: 11/span 2;
+    }
+    #space {
+        grid-column: 5/span 4;
+    }
+    #keyboard>div:hover {
+        background-color:#02bdd5;
+        color: black;
+    }
+
+   </style>
+   <script
+   src="https://kit.fontawesome.com/24c494a6b6.js"
+   crossorigin="anonymous"
+ ></script>
+</head>
+<body>
+    <div id="keyboard">
+        <div>~</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>0</div>
+        <div>Delete</div>
+        <div>tab</div>
+        <div>Q</div>
+        <div>W</div>
+        <div>E</div>
+        <div>R</div>
+        <div>T</div>
+        <div>Y</div>
+        <div>U</div>
+        <div>I</div>
+        <div>O</div>
+        <div>P</div>
+        <div>\</div>
+        <div>caps</div>
+        <div>A</div>
+        <div>s</div>
+        <div>d</div>
+        <div>f</div>
+        <div>g</div>
+        <div>h</div>
+        <div>j</div>
+        <div>k</div>
+        <div>l</div>
+        <div id="enter">enter</div>
+        <div>shift</div>
+        <div>Z</div>
+        <div>X</div>
+        <div>C</div>
+        <div>V</div>
+        <div>B</div>
+        <div>N</div>
+        <div>M</div>
+        <div><</div>
+        <div>></div>
+        <div id="shift" >Shift</div>
+        <div <i class="fa-solid fa-globe"></i></div>
+        <div>control</div>
+        <div>option</div>
+        <div>alt</div>
+        <div id="space">space</div>
+        <div>alt</div>
+        <div>option</div>
+        <div <i class="fa-solid fa-arrow-left"></i> </div>
+        <div <i class="fa-solid fa-arrow-right"></i></div>
+        
+    </div>
+    
+</body>
+</html>
